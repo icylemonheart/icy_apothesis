@@ -1,39 +1,38 @@
 ---
 name: Bug Report
-about: 提交 Bug 或兼容性问题
+about: Report a bug or compatibility issue
 labels: bug
-assignees: ''
 title: "[Bug/Compatibility]: "
 ---
 
-## 问题描述
+## Description
 
-请简要描述你遇到的问题（例如：闪退、功能异常、与某模组不兼容等）。
+Please briefly describe the issue you encountered (e.g., crash, malfunction, incompatibility with another mod, etc.).
 
-## 复现步骤
+## Steps to Reproduce
 
-1. 安装了哪些模组：
-2. 进入游戏后执行了什么操作：
-3. 问题是否稳定复现：
+1. Which mods do you have installed:
+2. What did you do in-game:
+3. Is the issue consistently reproducible:
 
-## 环境信息
+## Environment Information
 
-- Minecraft 版本：
-- NeoForge / Forge 版本：
-- icy_apothesis 版本：
-- icy_lib 版本（如适用）：
-- 其他相关模组及版本：
+- Minecraft version:
+- NeoForge / Forge version:
+- icy_apothesis version:
+- icy_lib version (if applicable):
+- Other related mods and versions:
 
-## 崩溃日志 / 截图
+## Crash Log / Screenshots
 
-如果有崩溃日志，请粘贴完整日志（crash report）：
+If there is a crash, please paste the full crash report:
 
 ```
-在此粘贴崩溃日志
+Paste crash report here
 ```
 
-如果有截图，可以添加：
+If you have screenshots, you can add them below:
 
-## 额外信息
+## Additional Information
 
-请提供任何能帮助定位问题的额外信息（如模组加载顺序、配置文件设置等）。
+Please provide any additional information that may help locate the issue (e.g., mod loading order, configuration settings, etc.).
