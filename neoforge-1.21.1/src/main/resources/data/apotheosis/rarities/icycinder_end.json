@@ -1,0 +1,102 @@
+{
+    "type": "apotheosis:rarity",
+    "color": "#66CCFF",
+    "material": "minecraft:echo_shard",
+    "render_data": {
+        "beam_height": 5.0,
+        "beam_radius": 0.045,
+        "beam_texture": "apotheosis:textures/rarity/beam.png",
+        "glow_radius": 0.1,
+        "glow_texture": "apotheosis:textures/rarity/glow.png",
+        "particle": {
+            "enabled": true
+        }
+    },
+    "rules": [
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:chanced",
+            "chance": 1.0,
+            "rule": {
+                "type": "apotheosis:affix",
+                "affix_type": "ability"
+            }
+        },
+        {
+            "type": "apotheosis:chanced",
+            "chance": 1.0,
+            "rule": {
+                "type": "apotheosis:affix",
+                "affix_type": "ability"
+            }
+        },
+        {
+            "type": "apotheosis:chanced",
+            "chance": 1.0,
+            "rule": {
+                "type": "apotheosis:affix",
+                "affix_type": "basic_effect"
+            }
+        },
+        {
+            "type": "apotheosis:chanced",
+            "chance": 0.9,
+            "rule": {
+                "type": "apotheosis:affix",
+                "affix_type": "basic_effect"
+            }
+        },
+        {
+            "type": "apotheosis:socket",
+            "min": 5,
+            "max": 6
+        },
+        {
+            "type": "apotheosis:durability",
+            "min": 0.75,
+            "max": 0.95
+        }
+    ],
+    "sort_index": 900,
+    "weights": {
+        "haven": {
+            "weight": 0
+        },
+        "frontier": {
+            "weight": 0
+        },
+        "ascent": {
+            "weight": 0
+        },
+        "summit": {
+            "weight": 0
+        },
+        "pinnacle": {
+            "quality": 15.0,
+            "weight": 50
+        }
+    }
+}

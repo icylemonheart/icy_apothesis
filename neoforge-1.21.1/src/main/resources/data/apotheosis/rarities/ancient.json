@@ -1,0 +1,87 @@
+{
+    "type": "apotheosis:rarity",
+    "color": "#FFD700",
+    "material": "minecraft:nether_star",
+    "render_data": {
+        "beam_height": 3.5,
+        "beam_radius": 0.038,
+        "beam_texture": "apotheosis:textures/rarity/beam.png",
+        "glow_radius": 0.075,
+        "glow_texture": "apotheosis:textures/rarity/glow.png",
+        "particle": {
+            "enabled": true
+        }
+    },
+    "rules": [
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:chanced",
+            "chance": 0.95,
+            "rule": {
+                "type": "apotheosis:affix",
+                "affix_type": "basic_effect"
+            }
+        },
+        {
+            "type": "apotheosis:chanced",
+            "chance": 1.0,
+            "rule": {
+                "type": "apotheosis:affix",
+                "affix_type": "ability"
+            }
+        },
+        {
+            "type": "apotheosis:chanced",
+            "chance": 0.85,
+            "rule": {
+                "type": "apotheosis:affix",
+                "affix_type": "ability"
+            }
+        },
+        {
+            "type": "apotheosis:socket",
+            "min": 3,
+            "max": 4
+        },
+        {
+            "type": "apotheosis:durability",
+            "min": 0.45,
+            "max": 0.75
+        }
+    ],
+    "sort_index": 750,
+    "weights": {
+        "haven": {
+            "weight": 0
+        },
+        "frontier": {
+            "weight": 0
+        },
+        "ascent": {
+            "weight": 0
+        },
+        "summit": {
+            "quality": 5.0,
+            "weight": 80
+        },
+        "pinnacle": {
+            "quality": 10.0,
+            "weight": 200
+        }
+    }
+}

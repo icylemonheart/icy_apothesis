@@ -1,0 +1,99 @@
+{
+    "type": "apotheosis:rarity",
+    "color": "#FF0000",
+    "material": "minecraft:heart_of_the_sea",
+    "render_data": {
+        "beam_height": 4.0,
+        "beam_radius": 0.04,
+        "beam_texture": "apotheosis:textures/rarity/beam.png",
+        "glow_radius": 0.08,
+        "glow_texture": "apotheosis:textures/rarity/glow.png",
+        "particle": {
+            "enabled": true
+        }
+    },
+    "rules": [
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:chanced",
+            "chance": 1.0,
+            "rule": {
+                "type": "apotheosis:affix",
+                "affix_type": "stat"
+            }
+        },
+        {
+            "type": "apotheosis:chanced",
+            "chance": 1.0,
+            "rule": {
+                "type": "apotheosis:affix",
+                "affix_type": "ability"
+            }
+        },
+        {
+            "type": "apotheosis:chanced",
+            "chance": 1.0,
+            "rule": {
+                "type": "apotheosis:affix",
+                "affix_type": "ability"
+            }
+        },
+        {
+            "type": "apotheosis:chanced",
+            "chance": 0.85,
+            "rule": {
+                "type": "apotheosis:affix",
+                "affix_type": "basic_effect"
+            }
+        },
+        {
+            "type": "apotheosis:socket",
+            "min": 4,
+            "max": 5
+        },
+        {
+            "type": "apotheosis:durability",
+            "min": 0.6,
+            "max": 0.85
+        }
+    ],
+    "sort_index": 800,
+    "weights": {
+        "haven": {
+            "weight": 0
+        },
+        "frontier": {
+            "weight": 0
+        },
+        "ascent": {
+            "weight": 0
+        },
+        "summit": {
+            "quality": 5.0,
+            "weight": 30
+        },
+        "pinnacle": {
+            "quality": 10.0,
+            "weight": 100
+        }
+    }
+}
