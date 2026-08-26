@@ -20,7 +20,6 @@ Please briefly describe the issue you encountered (e.g., crash, malfunction, inc
 - Minecraft version:
 - NeoForge / Forge version:
 - icy_apothesis version:
-- icy_lib version (if applicable):
 - Other related mods and versions:
 
 ## Crash Log / Screenshots
