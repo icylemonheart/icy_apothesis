@@ -1,0 +1,40 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "${mod_license}"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+displayURL = ""
+logoFile = ""
+authors = "${mod_authors}"
+description = '''${mod_description}'''
+
+[[dependencies."${mod_id}"]]
+modId = "forge"
+mandatory = true
+versionRange = "${forge_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "minecraft"
+mandatory = true
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "apotheosis"
+mandatory = true
+versionRange = "${apotheosis_version}"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "fallen_gems_affixes"
+mandatory = false
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"

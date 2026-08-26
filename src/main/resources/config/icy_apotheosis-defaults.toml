@@ -1,0 +1,50 @@
+# Icy Apotheosis Boss 默认配置文件
+# 每个稀有度等级一个实体列表
+# 格式: "实体ID" 或 "实体ID|权重"
+# 权重默认为1.0，如果同一实体在多个稀有度列表中出现，将按权重随机选择等级
+# 
+# 稀有度等级:
+# - null (Null): 原版实体，不做任何修改
+# - common (普通): 基础属性，无特殊效果
+# - uncommon (非凡): 少量加成和效果
+# - rare (珍稀): 中等加成，速度和效果
+# - epic (史诗): 高属性加成，多种效果
+# - mythic (神话): 顶级属性，强大效果
+# - ancient (远古): 最强属性，终极挑战
+
+# Null等级（原版实体，不做任何修改）
+nullEntities = [
+]
+
+# 普通等级神化Boss
+commonEntities = [
+]
+
+# 非凡等级神化Boss
+uncommonEntities = [
+]
+
+# 珍稀等级神化Boss
+rareEntities = [
+]
+
+# 史诗等级神化Boss
+epicEntities = [
+    "minecraft:warden",
+    "minecraft:wither"
+]
+
+# 神话等级神化Boss
+mythicEntities = [
+    "minecraft:ender_dragon"
+]
+
+# 远古等级神化Boss
+ancientEntities = [
+]
+
+# 是否在Boss生成时发送公告消息（ActionBar提示）
+announceBoss=true
+
+# Boss生成后是否自动锁定最近的玩家
+bossAutoAggro=true
